@@ -5,7 +5,7 @@ class Inventory{
         this.cartLink = page.locator('.shopping_cart_link');
         this.cartBadge = page.locator('.shopping_cart_badge');
         this.inventoryItems = page.locator('[data-test="inventory-item"]');
-        this.sortDropdown = page.locator('[data-test="product_sort_container"]');
+        this.sortDropdown = page.locator('.product_sort_container');
         this.itemPrices = page.locator('[data-test="inventory-item-price"]');
     }   
 

@@ -17,7 +17,7 @@ class  Cart {
 
     async removeProductFromCart(productName){
         const cartItem = this.getCartItem(productName);
-        const removeButton = cartItem.getbyRole('button', {name: 'Remove'});
+        const removeButton = cartItem.getByRole('button', {name: 'Remove'});
         await removeButton.click();
     }
 
