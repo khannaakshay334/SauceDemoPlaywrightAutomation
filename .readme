@@ -1,0 +1,5 @@
+Create folder structure
+
+1. Add .env file so we can add credentials, keys and URLs at one location
+to link .env file with steps we have to install .env dependency for that run command(npm install dotenv --save-dev)
+add require('dotenv').config(); at the top of the playwright.config.js file
